@@ -20,9 +20,13 @@
 
 - **LINUX:** is a Unix-like and POSIX-compliant computer operating system assembled under the model of free and open source software development and distribution. Originally authored by Linus Torvalds
 
-- **OSX:**  a series of Unix-based graphical interface operating systems developed, marketed, and sold by Apple Inc.
+- **OSX:**  a series of Unix-based graphical interface operating systems developed, marketed, and sold by Apple Inc. Originally based on Free BSD (another UNIX clone).
 
 - Take home message: they're all basically interchangable.
+
+
+UNIX --> LINUX
+     \-> OS X
 
 ---
 
