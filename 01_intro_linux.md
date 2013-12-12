@@ -8,7 +8,7 @@
 
 - Big data analysis is typically conducted on computer clusters which run linux
 
-- Many common tasks, such as sorting and filtering files are 'easily' done in linux
+- Many common tasks, such as sorting and filtering files, are 'easily' done in linux
 
 - Simple collaboration and version control
 
@@ -68,6 +68,23 @@
 - paste a linux cheat sheet on the wall in front of your computer
 	- This is a pretty decent [cheat sheet](http://files.fosswire.com/2007/08/fwunixref.pdf "Linux Cheat Sheet") 
 - look for and ask for answers/advice on [stackoverflow](stackoverflow.com)
+- these slides are available on github: [Lecture 01](https://github.com/ngcrawford/Intro_computational_programming_lectures/blob/master/01_intro_linux.md "Lecture 01")
+
+---
+
+# NEXT CLASS
+
+- install os x mavericks if you haven't already (it's free!!!)
+- then try installing [homebrew](http://brew.sh/) the instructions are at the bottom
+- pipes
+- grep
+- cut
+- sort
+- compression (gzip and gunzip)
+- tar
+- top and htop
+- curl and wget
+- awk, sed, (etc)
 
 
 
