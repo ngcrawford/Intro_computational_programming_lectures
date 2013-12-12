@@ -54,6 +54,7 @@
 
 # COMMON COMMANDS CONTINUED
 
+- **history** = print all the commands you ran recently.
 - **mv** [file name] [new file name] = rename or **m**o**v**e file
 - **cp** [file name] [new file name] = **c**o**p**y file
 - **wc** -l [file name] = ‘**w**ord **c**ount’, but most commonly used to count all the lines in the file 
