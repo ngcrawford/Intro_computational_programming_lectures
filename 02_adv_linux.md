@@ -137,7 +137,7 @@
 		sort -k1,1 -k2,2g test_data/example_bed.bed > example_bed.sorted.bed
 
 
-<span class="mega-octicon"></span> <span class="octicon"></span> 
+		
 
 
 
