@@ -29,7 +29,7 @@
 
 # DIAGRAM
 
-<img src="images/std_streams.png" alt="terminal" style="width: 500px;"/>
+<img src="images/std_streams.png" alt="terminal" style="width: 350px;"/>
 
 ---
 
@@ -132,7 +132,7 @@
 		
 	- `-g` : compare according to general numerical value
 
-- To sort a bed file by chromosome (column1) and then by starting position (column 2) use this command 
+- To sort a bed file by chromosome (column 1) and then by starting position (column 2) use this command 
 
 	sort -k1,1 -k2,2g test_data/example_bed.bed > example_bed.sorted.bed
 
