@@ -24,9 +24,17 @@
 
 - Take home message: they're all basically interchangable.
 
+---
 
-UNIX --> LINUX
-     \-> OS X
+# STANDARD KEY COMMANDS
+
+- &#x2325; = option key
+- &#8963; = control key
+- &#8963; + A = go to beginning of the line
+- &#8963; + E = go to end of the line
+- &#8963; + U = clear line (works in hidden passwords too!)
+- &#x2325; + &larr; or &rarr; = move word by word in line
+
 
 ---
 
