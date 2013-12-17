@@ -1,0 +1,4 @@
+- compression (gzip and gunzip) and tar
+- top and htop
+- curl and wget
+- awk, sed, (etc)
