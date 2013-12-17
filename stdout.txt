@@ -1,0 +1,8 @@
+01_intro_linux.md
+02_adv_linux.md
+dicrectory_output.txt
+images
+presentation.html
+stderr.txt
+stdout.txt
+test_data

@@ -62,7 +62,7 @@
 
 	- The following command will count all the lines in a file 
 
-			wc -l < dicrectory_output.txt
+			wc -l < directory_output.txt
 
 - Sometimes your don't want to write all your data to a file - for example if it is very big.
 
@@ -112,9 +112,9 @@
 
 - Useful flags:
 
-	- `grep -A` : Print NUM  lines  of  trailing  context  after  matching  lines. (e.g. `-A` = *AFTER*)
+	- `grep -A [NUM]` : Print NUM  lines  of  trailing  context  after  matching  lines. (e.g. `-A` = *AFTER*)
 
-	- `grep -B` : Print NUM  lines  of  leading  context  after  matching  lines. (e.g. `-B` = *BEFORE*)
+	- `grep -B [NUM]` : Print NUM  lines  of  leading  context  after  matching  lines. (e.g. `-B` = *BEFORE*)
 
 	- `grep -v` : select non-matching lines. Great for removing 'bad data'
 
@@ -134,7 +134,7 @@
 
 - To sort a bed file by chromosome (column 1) and then by starting position (column 2) use this command 
 
-	sort -k1,1 -k2,2g test_data/example_bed.bed > example_bed.sorted.bed
+		sort -k1,1 -k2,2g test_data/example_bed.bed > example_bed.sorted.bed
 
 
 
