@@ -41,16 +41,16 @@
 
 - Use `>` to redirect **stdout** to a file overwriting anything that's already there.
 
-		ls > dicrectory_output.txt
-		cat dicrectory_output.txt
+		ls > directory_output.txt
+		cat directory_output.txt
 
 - Use `>>` to append **stdout** to the end a file.
 
-		ls >> dicrectory_output.txt
-		ls >> dicrectory_output.txt
-		cat dicrectory_output.txt
+		ls >> directory_output.txt
+		ls >> directory_output.txt
+		cat directory_output.txt
 
-- Use `2>` to append **stder** to a file. 
+- Use `2>` to append **stderr** to a file. 
 
 ---
 
