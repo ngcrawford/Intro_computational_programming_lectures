@@ -22,7 +22,6 @@ Once everything is up to date you can start with the assignment.
 	- If you don't have `wget` installed use `brew` to install it. `wget`, I think it's short for `web-get`, is a commandline tool for downloading files from the web. It's not included in os x by default so you have to install it with `brew`. However, it's available in most other linux distros.
 
 	- The file you downloaded it tarred and gziped. The internet will tell you how to decompress it.
-
 			
 	<pre><code>bowtie2-build Hmel1-1_primaryScaffolds.fa Hmel1-1_primaryScaffolds</pre></code>
 
@@ -35,6 +34,8 @@ Once everything is up to date you can start with the assignment.
 	- Play around with `bowtie2` and read the [documentation][]. 
 	
 	- Can you use `grep` and `wc` to see how changing the alignment stringency settings affects the number of reads that align?	
+
+	- Can you figure out how to filter out the header lines?
 
 4. Install `samtools`.
 
