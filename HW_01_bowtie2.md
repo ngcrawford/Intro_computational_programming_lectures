@@ -19,7 +19,7 @@ Once everything is up to date you can start with the assignment.
 
 		wget http://www.butterflygenome.org/sites/default/files/Hmel1-1_Release_20120601.tgz
 
-	- If you don't have `wget` installed use brew to install it.
+	- If you don't have `wget` installed use `brew` to install it. `wget`, I think it's short for `web-get`, is a commandline tool for downloading files from the web. It's not included in os x by default so you have to install it with `brew`. However, it's available in most other linux distros.
 
 	- The file you downloaded it tarred and gziped. The internet will tell you how to decompress it.
 
