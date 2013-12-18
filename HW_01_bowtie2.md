@@ -4,6 +4,10 @@ The main purpose of this assignment is to get you setup with `brew` and `bowtie2
 
 		git pull origin master
 
+If you run into issues you can always make a new repo.
+
+		git clone git@github.com:ngcrawford/comp_bio_lectures.git
+
 Once everything is up to date you can start with the assignment.
 
 1. Install `bowtie2`.
