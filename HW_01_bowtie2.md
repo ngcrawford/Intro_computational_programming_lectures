@@ -1,4 +1,4 @@
-# Home work 1
+# Homework \# 1
 
 The main purpose of this assignment is to get you setup with `brew` and `bowtie2` and `samtools`. So that you have some data to work with I've added two test files of R1 and R2 *Heliconius* reads to the `test_data` folder. To get these files you'll need to update your git repo the newest version on github. To do that you should just run the following command from within the git repo you made yesterday.
 
