@@ -11,16 +11,18 @@ Once everything is up to date you can start with the assignment.
 		brew tap homebrew/science
 		brew install bowtie2
 
-2. Make the `bowtie2` index. This will take a little while.
+2. Make the `bowtie2` index.
 
 		wget http://www.butterflygenome.org/sites/default/files/Hmel1-1_Release_20120601.tgz
 
 	- If you don't have `wget` installed use brew to install it.
 
+	- The file you downloaded it tarred and gziped. The internet will tell you how to decompress it.
+
 			
 	<pre><code>bowtie2-build Hmel1-1_primaryScaffolds.fa Hmel1-1_primaryScaffolds</pre></code>
 
-	- This command makes the index that `bowtie2` uses to align the reads to the genome.
+	- This command makes the index that `bowtie2` uses to align the reads to the genome. This will take a little while.
 
 3. Align the test reads. You should run this from the directory that contains the `bowtie2` indices. 
 
