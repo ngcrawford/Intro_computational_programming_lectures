@@ -37,7 +37,7 @@
 
 		gunzip filename.txt.gz
 
-- `gunzip -c gunzip filename.txt.gz` or `zcat gunzip filename.txt.gz` will send the unzipped data to standard out. This allows you to incorporate gzipped data into pipelines.
+- `gunzip -c gunzip filename.txt.gz` will send the unzipped data to standard out. This allows you to incorporate gzipped data into pipelines.
 
 ---
 
@@ -113,9 +113,9 @@
 
 # PUTTING IT ALL TOGETHER
 
-- **Curly braces ( {, and } )**: group commands to so that both read the same standard input.
+- **Curly braces ( {, and } )**: group commands so that both read the same stdin.
 
-- **Back-slashes**: escape characters so they're ignored. Here they escape the excape the invisible new-line ("\n") characters.
+- **Back-slashes**: escape characters so they're ignored. Here they escape the invisible new-line ("\n") characters.
 
 - **Example**:
 
