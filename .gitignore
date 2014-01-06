@@ -1,3 +1,4 @@
 presentation.html
 *.fa
 *.bt2
+.ipynb_checkpoints/
