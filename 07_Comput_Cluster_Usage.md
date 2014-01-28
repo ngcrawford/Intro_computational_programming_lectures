@@ -117,13 +117,13 @@ SCC and XSEDE use Sun Grid Engine ([SGE][9]) to manage the nodes and the batch-q
 
 * Basic Template:
 
-	qsub \
-	-V \
-	-N name_of_run \
-	-pe omp 8 \
-	-l h_rt=20:00:00 \
-	-b y \
-	'command to run'
+		qsub \
+		-V \
+		-N name_of_run \
+		-pe omp 8 \
+		-l h_rt=20:00:00 \
+		-b y \
+		'command to run'
 
 * `-V` imports your system environment variables (e.g., .bashrc) into the node where command is executed.
 * `-pe omp 8` is how you define then number of processor cores to use
@@ -162,7 +162,7 @@ Many bioinformatics packages will allow you to use multiple processor cores.
 		gunzip -c {} | bgzip > {.}.bgzipped.gz' \
 		< filenames.txt
 
-		# running this command will print all the 'sub-commands without executing them (--dry-run)
+		# running this command will print all the 'sub-commands' without executing them (--dry-run)
 
 ---
 
@@ -178,7 +178,7 @@ Then submit the cmd to the cluster.
 	-b y \
 	"parallel \
 	-j 8 \
-	'cd current/directory;
+	'cd current/directory; \
 	gunzip -c {} | bgzip > {.}.bgzipped.gz' \
 	< filenames.txt"
 
