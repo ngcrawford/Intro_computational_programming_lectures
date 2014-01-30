@@ -159,8 +159,26 @@ There are 9 fixed fields per record. All data lines are tab-delimited. In all ca
 <img src="images/subtract-glyph.png" alt="vcf format" style="width: 500px;"/>
 
 
+---
+
+# Assignment:
+
+Using `test_data/RADs.Chr3.vcf.bgz`.
+
+* Count the number of SNV in this window `3:1-2000000`
+    * Hint: use linux's 'word count' to make this a one-liner.
+* Calculate weir's Fst for each SNV in the VCF.
+    * Pop1:CEJ035,CEJ036,CEJ037,CEJ039,CEJ040,CEJ041
+    * POP2: CEJ084,CEJ085,CEJ088,CEJ106,CEJ108
+* Use Pandas to calculate the mean Fst across this region.
+* Use Pandas to plot Fst across this region.
+
+
+
 [1]: http://uswest.ensembl.org/info/website/upload/gff.html
 [2]: http://bedtools.readthedocs.org/
 [3]: http://bedtools.readthedocs.org/en/latest/content/bedtools-suite.html
 [4]: http://www.1000genomes.org/wiki/Analysis/Variant%20Call%20Format/vcf-variant-call-format-version-41
 [5]: http://vcftools.sourceforge.net/docs.html
+
+
